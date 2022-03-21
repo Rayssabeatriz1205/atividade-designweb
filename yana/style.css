@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Nunito:wght@300;400;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header-top{
+    position: relative;
+    background-color: #233673;
+    height: 89px;
+    max-width: 1921px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo{
+    position: relative;
+    top: 13px;
+    left:377px;
+    width: 104.39px;
+    height: 64px;
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 800px;
+}
+.header-nav ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    position: absolute;
+    top: 37px;
+}
+.menu{
+    position: relative;
+    top: 23px;
+}
+.header-nav li{
+    font-family: 'Nunito';
+    font-weight: lighter;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+}
+.section-hero{
+    max-width: 1921px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.background-main{
+    position: absolute;
+    width: 1921px;
+    height: 711px;
+}
+.gradient{
+    position: absolute;
+    width: 1921px;
+    height: 711px;
+    left: -3px;
+    top: 89px;
+    background: linear-gradient(270deg, rgba(33, 143, 217, 0.1) 0%, #09629D 100%);
+}
+.section-hero h1{
+    position: absolute;
+    width: 672px;
+    height: 133px;
+    left: 373px;
+    top: 255px;
+    font-family: 'Nunito';
+    color: #ffff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+}
+.section-hero span{
+    color: #FFA000;
+}
+#p-header{
+    position: absolute;
+    width: 571px;
+    height: 96px;
+    left: 373px;
+    top: 480px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.95);
+}
+.button-orange{
+    background-color: #FC8A33;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    width: 240px;
+    height: 12px;
+    left: 375px;
+    top: 640px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+}
+.arrow{
+    position: absolute;
+    width: 27px;
+    height: 14px;
+    left: 391px;
+    top: 660px;
+}
+.button-transparent{
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    width: 202px;
+    height: 47px;
+    left: 680px;
+    top: 643px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+}
