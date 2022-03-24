@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Nunito:wght@300;400;700&display=swap');
-
+ 
 body{
     margin: 0px;
     padding: 0px;
@@ -23,7 +23,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    left: 800px;
+    left: 920px;
 }
 .header-nav ul{
     position: relative;
@@ -54,6 +54,7 @@ body{
     line-height: 19px;
 }
 .section-hero{
+    position: relative;
     max-width: 1921px;
     margin-right: auto;
     margin-left: auto;
@@ -67,8 +68,6 @@ body{
     position: absolute;
     width: 1921px;
     height: 711px;
-    left: -3px;
-    top: 89px;
     background: linear-gradient(270deg, rgba(33, 143, 217, 0.1) 0%, #09629D 100%);
 }
 .section-hero h1{
@@ -76,7 +75,7 @@ body{
     width: 672px;
     height: 133px;
     left: 373px;
-    top: 255px;
+    top: 180px;
     font-family: 'Nunito';
     color: #ffff;
     font-style: normal;
@@ -92,7 +91,7 @@ body{
     width: 571px;
     height: 96px;
     left: 373px;
-    top: 480px;
+    top: 354px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
@@ -108,7 +107,7 @@ body{
     width: 240px;
     height: 12px;
     left: 375px;
-    top: 640px;
+    top: 511px;
     font-family: 'Catamaran';
     font-style: normal;
     font-weight: 700;
@@ -124,7 +123,7 @@ body{
     width: 27px;
     height: 14px;
     left: 391px;
-    top: 660px;
+    top: 528px;
 }
 .button-transparent{
     position: absolute;
@@ -135,7 +134,7 @@ body{
     width: 202px;
     height: 47px;
     left: 680px;
-    top: 643px;
+    top: 511px;
     font-family: 'Catamaran';
     font-style: normal;
     font-weight: 700;
@@ -146,3 +145,4 @@ body{
     color: rgba(255, 255, 255, 0.95);
     cursor: pointer;
 }
+
