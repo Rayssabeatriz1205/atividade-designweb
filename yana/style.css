@@ -33,6 +33,168 @@ body{
 .icon{
     position: absolute;
     top: 37px;
+ 
+ .section-1{
+    position: relative;
+    width: 1934px;
+    height: 977px;
+    top: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: linear-gradient(270deg, rgba(179, 198, 255, 0.13) 19.69%, rgba(179, 198, 255, 0) 80.34%);
+    box-shadow: 0px 20px 60px -50px rgba(0, 0, 0, 0.2);
+}
+#d1p1{
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    left: 373px;
+    top: 142px;
+
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #008FEF;
+}
+
+.div-1 h2{
+    position: absolute;
+    width: 441px;
+    height: 92px;
+    left: 371px;
+    top: 183px;
+
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+}
+
+#d1p2{
+    position: absolute;
+    width: 469px;
+    height: 92px;
+    left: 1086px;
+    top: 191px;
+
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+#i1{
+    position: absolute;
+    left: 1472px;
+    top: 314.75px;
+    color: #B8C2CC;
+
+    padding: 8px 12px;
+    border: 1px solid #B8C2CC;
+    border-radius: 50%;
+}
+
+#i1:hover{
+    border: 1px solid #3655B3;
+    border-radius: 50%;
+    color: #3655B3;
+}
+
+#i2{
+    position: absolute;
+    left: 1526px;
+    top: 314.75px;
+    color: #B8C2CC;
+
+    padding: 8px 12px;
+    border: 1px solid #B8C2CC;
+    border-radius: 50%;
+}
+
+#i2:hover{
+    border: 1px solid #3655B3;
+    border-radius: 50%;
+    color: #3655B3;
+}
+
+.div-2{
+    position: relative;
+    top: 382px;
+    left: 66px;
+}
+
+.linhas{
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.linhas h3{
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #3655B3;
+}
+
+.linhas p{
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #1F2937;
+}
+
+.section-1 a{
+    position: absolute;
+    width: 270.96px;
+    height: 47px;
+    left: 374px;
+    top: 880px;
+
+    border: 0.3px solid #3655B3;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.section-1 a img{
+    position: absolute;
+    width: 18.13px;
+    height: 24px;
+    left: 20.15px;
+    top: 10px;
+}
+
+.section-1 a p{
+    position: absolute;
+    width: 194.41px;
+    height: 16px;
+    left: 51.37px;
+    top: 0px;
+
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #3655B3;
+
+}
 }
 .menu{
     position: relative;
